@@ -14,7 +14,7 @@ app.mount("/static", StaticFiles(directory="./app/static"), name="static")
 
 @app.get("/")
 async def read_root():
-    return {"Hello": "World And Aliens"}
+    return {"Hola": "Sebastian Perez"}
 
 @app.get('/favicon.ico')
 async def favicon():
@@ -25,3 +25,6 @@ async def favicon():
 @app.get("/items/{item_id}")
 async def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
+
+
+
