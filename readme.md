@@ -2,7 +2,7 @@
 
 Este es un repositorio de plantilla que te permite comenzar rápidamente con la creación de una aplicación web usando FastAPI y MongoDB. ya sea con docker o con un entorno virtual con pyenv y poetry
 
-## Características
+## Característicass
 
 - Configuración básica de una aplicación FastAPI con MongoDB.
 - Ejemplos de rutas y modelos para comenzar a construir tu API.

@@ -25,6 +25,6 @@ services:
       - MONGO_INITDB_DATABASE=${MONGO_DB}
       - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER:-root}
       - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASS:-example}
-      # - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-aitrade}
+      # - POSTGRESs_PASSWORD=${POSTGRES_PASSWORD:-aitrade}
     ports:
       - '27017:27017'
